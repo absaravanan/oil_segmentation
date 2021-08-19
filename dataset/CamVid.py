@@ -58,7 +58,7 @@ class CamVid(torch.utils.data.Dataset):
         # self.label_list.sort()
 
         z = list(zip(self.image_list, self.label_list))
-        print(z)
+        # print(z)
         random.seed(0)
         random.shuffle(z)
         print ("shuffled")

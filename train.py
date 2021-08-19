@@ -151,8 +151,8 @@ def main(params):
     args = parser.parse_args(params)
 
     # create dataset and dataloader
-    train_path = [ "/home/abs/abs/bisenet/data/images"]
-    train_label_path = [ "/home/abs/abs/bisenet/data/annotations"]
+    train_path = [ "./data/images"]
+    train_label_path = [ "./data/annotations"]
     
 
     csv_path = "dataset/class_dict.csv"
